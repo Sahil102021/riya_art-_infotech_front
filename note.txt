@@ -1,0 +1,3 @@
+// frist time build ma = 'vite build' <=  lakhine karvu 
+// pachi second time ma = 'node node_modules/vite/bin/vite.js build'  <=  lakhine karvu
+// npm run build <=  karvu 
