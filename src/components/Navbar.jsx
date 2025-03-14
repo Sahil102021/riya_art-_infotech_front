@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { close, logo, menu } from "../assets";
+import { close, logo, menu ,riyaartlogo , riyaart1 , riyaart2 , riyaart3} from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -27,8 +27,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-3 sm:px-0">
-        <nav className="w-full flex py-6 justify-between items-center navbar ">
-          <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+        <nav className="w-full flex py-3 justify-between items-center navbar ">
+          <img src={riyaart1} alt="hoobank" className="w-[200px] h-[55px]" />
 
           <ul className="list-none sm:flex hidden justify-end items-center flex-1">
             {navLinks.map((nav, index) => (

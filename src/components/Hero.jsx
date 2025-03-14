@@ -1,5 +1,5 @@
 import styles from "../styles";
-import { discount, robot } from "../assets";
+import { discount, robot, hero_img } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -15,12 +15,12 @@ const Hero = () => {
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">20%</span> Discount For{" "}
-            <span className="text-white">1 Month</span> Account
+            <span className="text-white">1 Month</span> Service 
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold md:text-[72px] sm:text-[52px] text-[38px] text-white leading-[40px] ss:leading-[100.8px]  sm:leading-[75px]">
             The Next <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Generation</span>{" "}
           </h1>
@@ -29,13 +29,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Payment Method.
+        <h1 className="font-poppins font-semibold  md:text-[72px] sm:text-[52px] text-[38px] text-white leading-[40px] ss:leading-[100.8px] sm:leading-[75px] w-full">
+          web development
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+        <p className={`${styles.paragraph}  max-w-[470px] mt-5`}>
+        We're a development company and deliver digital solutions with killer experience. We never settle for quality and user experience.
         </p>
       </div>
 
@@ -43,9 +41,9 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={robot}
+          src={hero_img}
           alt="billing"
-          className="w-[100%] h-[100%] relative z-[5]"
+          className=" w-[100%] xs:w-[600px] xl-[100%] h-auto xs:h-[400px] xl:h-auto relative z-[5]"
         />
 
         {/* gradient start */}

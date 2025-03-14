@@ -14,6 +14,29 @@ import {
   send,
   shield,
   star,
+  idente,
+  strategic,
+  Build,
+  shuttle,
+  icon_1,
+  icon_2,
+  icon_3,
+  icon_4,
+  icon_5,
+  icon_6,
+  css3,
+  aws,
+  boostrap,
+  c,
+  html5,
+  javascript,
+  next,
+  nodejs,
+  python,
+  reactjs,
+  tailwindcss,
+  leaf,
+  mui,
 } from "../assets";
 
 export const navLinks = [
@@ -35,31 +58,38 @@ export const navLinks = [
   },
   {
     id: "let's talk",
-    title: "let's talk"
-  }
+    title: "let's talk",
+  },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: idente,
+    title: "Ideate",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Every project starts with an ideation. And our job is to convert your ideas into reality to achieve your goal.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: strategic,
+    title: "Strategize",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Once a 360 degree research is completed, We list down the strategies as pre-planning assures us build a robust development procedure. ",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: Build,
+    title: "Build",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "In this phase, our experts start building on your requirements and are committed to fulfill it to your expectations.",
+  },
+  {
+    id: "feature-4",
+    icon: shuttle,
+    title: "Launch",
+    content:
+      "With a green signal from our quality assurance experts, your product is ready to launch in the market delivering a peak performance.",
   },
 ];
 
@@ -67,25 +97,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "I really liked this sellers work, she is extremely talented and very cooperative, feedbacks were taken well and she worke accordingly, i will order soon again from her",
+    name: "Zhao",
+    title: "Team",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Thank you for hard work. She is responsive, transparent, and puts in extra work. Highly recommended and am hopeful to use again!",
+    name: "Henary",
+    title: "Team",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "amazing communication and high quality work - will be in touch with to clear more projects!",
+    name: "liman",
+    title: "Founder",
     img: people03,
   },
 ];
@@ -93,18 +123,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Years Experience",
+    value: "3+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Delivery Project",
+    value: "100+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Happy Customer",
+    value: "95+",
   },
 ];
 
@@ -113,49 +143,37 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.iwebdev.tech/",
+        name: "Content : +91 81550 83855",
+        link: "https://wa.me/8155083855",
       },
       {
-        name: "How it Works",
-        link: "https://www.iwebdev.tech/",
+        name: "Gmail : riyaartinfotech@gmail.com",
+        link: "mailto:riyaartinfotech@gmail.com",
       },
-      {
-        name: "Create",
-        link: "https://www.iwebdev.tech/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.iwebdev.tech/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.iwebdev.tech/",
-      },
+      // {
+      //   name: "Create",
+      //   link: "https://www.iwebdev.tech/",
+      // },
+      // {
+      //   name: "Explore",
+      //   link: "https://www.iwebdev.tech/",
+      // },
+      // {
+      //   name: "Terms & Services",
+      //   link: "https://www.iwebdev.tech/",
+      // },
     ],
   },
   {
-    title: "Community",
+    title: "Services",
     links: [
       {
-        name: "Help Center",
-        link: "https://bizz.iwebdev.tech/",
+        name: "Web Development",
+        link: "#",
       },
       {
-        name: "Partners",
-        link: "https://bizz.iwebdev.tech/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://bizz.iwebdev.tech/",
-      },
-      {
-        name: "Blog",
-        link: "https://bizz.iwebdev.tech/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://bizz.iwebdev.tech/",
+        name: "App Development",
+        link: "#",
       },
     ],
   },
@@ -164,11 +182,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://lironabutbul.vercel.app",
+        link: "#",
       },
       {
         name: "Become a Partner",
-        link: "https://lironabutbul.vercel.app",
+        link: "#",
       },
     ],
   },
@@ -178,40 +196,103 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "#",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "#",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "#",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "#",
   },
 ];
 
-export const clients = [
+export const programming_language_logo = [
   {
-    id: "client-1",
-    logo: airbnb,
+    id: "css3",
+    logo: css3,
   },
   {
-    id: "client-2",
-    logo: binance,
+    id: "html5",
+    logo: html5,
   },
   {
-    id: "client-3",
-    logo: coinbase,
+    id: "javascript",
+    logo: javascript,
   },
   {
-    id: "client-4",
-    logo: dropbox,
+    id: "reactjs",
+    logo: reactjs,
+  },
+  {
+    id: "next",
+    logo: next,
+  },
+  {
+    id: "nodejs",
+    logo: nodejs,
+  },
+  {
+    id: "python",
+    logo: python,
+  },
+  {
+    id: "tailwindcss",
+    logo: tailwindcss,
+  },
+  {
+    id: "boostrap",
+    logo: boostrap,
+  },
+  {
+    id: "c",
+    logo: c,
+  },
+  {
+    id: "aws",
+    logo: aws,
+  },
+  {
+    id: "leaf",
+    logo: leaf,
+  },
+  {
+    id: "mui",
+    logo: mui,
+  },
+];
+
+export const industries = [
+  {
+    icon: icon_1,
+    name: "Tour & Travel",
+  },
+  {
+    icon: icon_2,
+    name: "Automative",
+  },
+  {
+    icon: icon_3,
+    name: "Food & Delivery",
+  },
+  {
+    icon: icon_4,
+    name: "Education",
+  },
+  {
+    icon: icon_5,
+    name: "Real Estate",
+  },
+  {
+    icon: icon_6,
+    name: "Shopping",
   },
 ];

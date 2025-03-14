@@ -1,5 +1,5 @@
 import styles from "./styles";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import { Product, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Termandcondition } from "./components";
 import Mainform from "./components/Mainform";
 
 const App = () => (
@@ -20,13 +20,14 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Business />
-        <Billing />
+        <Product />
         <CardDeal />
         <Testimonials />
         <Clients />
         <CTA />
         <Mainform />
         <Footer />
+        <Termandcondition />
       </div>
     </div>
   </div>

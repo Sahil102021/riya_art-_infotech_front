@@ -107,7 +107,7 @@ also, can be found other configuration files for Tailwind, PostCSS, Vite and etc
 
 #### components
 
-`Billing.jsx` - `Business.jsx` - `Button.jsx` - `CardDeal.jsx` - `Clients.jsx` - `CTA.jsx` - `FeedbackCard.jsx` - `Footer.jsx` - `GetStarted.jsx` - `Hero.jsx` - `Navbar.jsx` - `Stats.jsx` - `Testimonial.jsx` - `index.js`
+`product.jsx` - `Business.jsx` - `Button.jsx` - `CardDeal.jsx` - `Clients.jsx` - `CTA.jsx` - `FeedbackCard.jsx` - `Footer.jsx` - `GetStarted.jsx` - `Hero.jsx` - `Navbar.jsx` - `Stats.jsx` - `Testimonial.jsx` - `index.js`
   
 JSX (JavaScript XML / syntax extension to JavaScript) files contain **HooBank** components which split the UI into independent and reusable bits of code which comes with the full power of JavaScript.
 The list above describe what the UI should look like, and any JSX produces React "element" where the file names hint at their contents.

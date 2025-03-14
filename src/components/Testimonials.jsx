@@ -15,8 +15,7 @@ const Testimonials = () => (
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Everything you need to accept card payments and grow your business
-          anywhere on the planet.
+        Everything you need to build, scale, and innovate your IT business from anywhere in the world.
         </p>
       </div>
     </div>

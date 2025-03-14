@@ -28,16 +28,21 @@ const Business = () => (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle the
-        money.
+        Choose The Best IT <br className="sm:block hidden" /> Service, Company
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds of
-        credit cards on the market.
+        Riya art infotech one of the fastest-growing software development
+        companies serving since 2021. We supply innovative and best-in-class
+        consulting, IT solutions and outsourcing services. We have developed
+        100+ unique products counting apps,and web based services. We
+        have been outsourcing for 3 year. We're a team of techie engineers and
+        graphics artists with experience covering most services of the mobile
+        and web development process.
       </p>
 
+      
       <Button styles={`mt-10`} />
+     
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
