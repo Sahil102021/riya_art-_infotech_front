@@ -28,7 +28,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-3 sm:px-0">
         <nav className="w-full flex py-3 justify-between items-center navbar ">
-          <img src={riyaart1} alt="hoobank" className="w-[200px] h-[55px]" />
+          <img src={riyaart1} alt="hoobank" className="w-[165px] h-[55px]" />
 
           <ul className="list-none sm:flex hidden justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
