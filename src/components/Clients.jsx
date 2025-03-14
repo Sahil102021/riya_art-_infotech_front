@@ -5,7 +5,7 @@ import styles from "../styles";
 const Clients = () => (
   <section className="py-16 px-6 text-center bg-transparent">
     <motion.h2
-      className="text-[32px] sm:text-5xl font-bold text-gray-900 dark:text-white mb-6 "
+      className="text-[32px] sm:text-5xl font-bold text-white mb-6 "
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
@@ -13,7 +13,7 @@ const Clients = () => (
       Technologies We Work With
     </motion.h2>
     <motion.p
-      className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-10 "
+      className="text-lg  text-white max-w-2xl mx-auto mb-10 "
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
