@@ -38,6 +38,7 @@ import riyaartlogo from "./riyaartlogo.png";
 import riyaart1 from "./riyaart1.png";
 import riyaart2 from "./riyaart2.png";
 import riyaart3 from "./riyaart3.png";
+import riyaart4 from "./riyaart4.png";
 import css3 from "./css3.png";
 import aws from "./aws.png";
 import boostrap from "./boostrap.png";
@@ -93,6 +94,7 @@ export {
   riyaart1,
   riyaart2,
   riyaart3,
+  riyaart4,
   css3,
   aws,
   boostrap,

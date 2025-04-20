@@ -175,6 +175,18 @@ export const footerLinks = [
         name: "App Development",
         link: "#",
       },
+      {
+        name: "Mobile Apps ",
+        link: "#",
+      },
+      {
+        name: "Fast Delivery & Full Support",
+        link: "#",
+      },
+      {
+        name: "Software developmate",
+        link: "#",
+      },
     ],
   },
   {
