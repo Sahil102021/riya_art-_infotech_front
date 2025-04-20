@@ -55,7 +55,7 @@ const Mainform = () => {
         className=" flex items-center justify-center bg-black text-white "
       >
         <motion.div
-          className="w-full max-w-6xl bg-gray-900 p-8 rounded-2xl shadow-lg flex flex-col md:flex-row lg:flex-row lg:gap-6"
+          className="w-full max-w-6xl bg-gray-900 sm:p-8 rounded-2xl shadow-lg flex flex-col md:flex-row lg:flex-row lg:gap-6"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
